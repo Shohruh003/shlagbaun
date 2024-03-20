@@ -6,7 +6,7 @@ import axios from 'axios';
 function App() {
 
   const OpenClick = () => {
-    axios.post('https://00d0-81-95-239-4.ngrok-free.app/open')
+    axios.post('https://9b75-81-95-227-133.ngrok-free.app/open')
   .then((response) => {
     console.log(response.data);
   })
@@ -16,7 +16,7 @@ function App() {
   }
 
   const StopClick = () => {
-    axios.post('https://00d0-81-95-239-4.ngrok-free.app/stop')
+    axios.post('https://9b75-81-95-227-133.ngrok-free.app/stop')
   .then((response) => {
     console.log(response.data);
   })
@@ -26,7 +26,7 @@ function App() {
   }
 
   const CloseClick = () => {
-    axios.post('https://00d0-81-95-239-4.ngrok-free.app/close')
+    axios.post('https://9b75-81-95-227-133.ngrok-free.app/close')
   .then((response) => {
     console.log(response.data);
   })
